@@ -1,0 +1,70 @@
+/* Set background color and font styles for the page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+header {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #0072C6;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Style the about us section */
+#about-us {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+  color: #0072C6;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#about-us p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #0072C6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
