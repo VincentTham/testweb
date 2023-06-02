@@ -1,0 +1,114 @@
+/* Set background color and font styles for the page */
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	margin: 10;
+	padding: 10;
+}
+
+/* Style the header section */
+header h1, header h2 {
+	color: yellow;
+}
+
+header {
+	background-image: url("background.png");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the main section */
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	width: 120px; /* Adjust the width as per your logo size */
+}
+
+main {
+	margin: 20px;
+}
+
+/* Style the section headings */
+section h3 {
+	color: #0072C6;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+/* Style the paragraphs */
+p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Style the unordered lists */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the list items */
+li {
+	margin-bottom: 10px;
+}
+
+/* Style the contact form */
+form {
+	margin-top: 20px;
+}
+
+/* Style the form labels */
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 100%;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+	background-color: #0072C6;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	width: auto;
+}
+
+/* Style the footer section */
+footer {
+	background-color: #0072C6;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the social media icons */
+.social-media-icons {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.social-media-icons li {
+	margin: 0 10px;
+}
+
+.social-media-icons li a {
+	color: #fff;
+	font-size: 24px;
+}
+
